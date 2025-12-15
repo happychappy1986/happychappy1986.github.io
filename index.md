@@ -2,6 +2,7 @@
 layout: home
 permalink: /
 title: Home
+weight: 10
 ---
 
 # James Chapman Counselling MBACP (Accred.)

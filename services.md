@@ -2,6 +2,7 @@
 layout: page
 permalink: /services/
 title: Services
+weight: 20
 ---
 
 # Services
