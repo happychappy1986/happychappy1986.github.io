@@ -1,1 +1,3 @@
-My new website
+James Champan Counselling
+
+Built with [Jekyll](https://jekyllrb.com)
