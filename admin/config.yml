@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: happychappy1986/happychappy1986.github.io
+  branch: main
+  base_url: https://api.netlify.com
+
+# Optional: Use this for local development
+# local_backend: true
+
+media_folder: "assets/images/"
+public_folder: "/assets/images/"
+
+collections:
+  # Pages collection - for main site pages
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Weight", name: "weight", widget: "number", default: 10}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "About Page"
+        name: "about"
+        file: "about.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Weight", name: "weight", widget: "number", default: 20}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Services Page"
+        name: "services"
+        file: "services.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/services/"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Weight", name: "weight", widget: "number", default: 30}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/contact/"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Weight", name: "weight", widget: "number", default: 40}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  # Blog posts collection
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
