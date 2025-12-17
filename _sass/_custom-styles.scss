@@ -1,0 +1,98 @@
+// Custom Styles for James Chapman Counselling
+
+// Site Header
+.site-header {
+  border-top: 10px solid $peach-accent;
+  border-bottom: 1px solid $peach-accent;
+}
+
+// Profile Image
+.profile-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid $peach-accent;
+  box-shadow: 0 4px 12px rgba(255, 231, 210, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 231, 210, 0.7);
+  }
+}
+
+// Footer Accreditation Logos
+.accreditation-logos {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $peach-accent;
+
+  img {
+    height: 60px;
+    margin: 0 15px;
+    vertical-align: middle;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// Footer Border
+.site-footer {
+  border-top: 1px solid $peach-accent;
+}
+
+// Horizontal Rules
+hr {
+  border-color: $peach-accent;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p, li, .post-content {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+// Navigation
+.site-title {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+nav.site-nav {
+  font-size: 1.2rem;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $brand-color-alt;
+      text-decoration-thickness: 4px;
+      text-underline-offset: 4px;
+    }
+  }
+}
+
+// Copyright Text
+.copyright-text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+  color: $secondary-text;
+}
