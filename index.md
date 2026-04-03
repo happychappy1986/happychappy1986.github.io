@@ -7,3 +7,5 @@ weight: 10
 
 # James Chapman Counselling MBACP (Accred.)
 I am an accredited integrative counsellor offering individual and couple therapy in South East London.
+
+[View Services](/services/){: .btn .btn-primary}
