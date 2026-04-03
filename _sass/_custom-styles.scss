@@ -19,9 +19,10 @@
 
 .home img {
   border-radius: 50%;
-  width: 200px;
+  width: 00px;
   height: 200px;
   object-fit: cover;
+  object-position: center 20%;
   border: 4px solid $peach-accent;
   box-shadow: 0 4px 12px rgba(255, 231, 210, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
