@@ -12,10 +12,13 @@ We would meet at the same time each week. Sessions are 50 minutes long. I do not
 <a href="mailto:chapmanj948@gmail.com?subject=Book%20an%20initial%20appointment" class="btn btn-primary">Book an initial appointment</a>
 
 ## Fees 
+Counselling
 
-£60 per session
+£70-90
 
-£70 couples
+Supervision:
+
+£70
 
 Mediation
 
