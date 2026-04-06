@@ -4,6 +4,8 @@ permalink: /services/
 title: Services
 weight: 30
 ---
+Counselling
+
 
 We would meet at the same time each week. Sessions are 50 minutes long. I do not charge for missed sessions provided you give at least a week's notice.
 
@@ -14,3 +16,7 @@ We would meet at the same time each week. Sessions are 50 minutes long. I do not
 £60 per session
 
 £70 couples
+
+Mediation
+
+Please get in touch to discuss fees.
