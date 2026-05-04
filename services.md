@@ -19,9 +19,11 @@ We would meet at the same time each week. Sessions are 50 minutes long. I do not
 
 I provide in person and remote clinical supervision to counsellors.
 
-<a href="mailto:chapmanj948@gmail.com?subject=Book%20a%20supervision%20appointment" class="btn btn-primary">Book a supervision appointment</a>
 
 **Fees: £70**
+
+<a href="mailto:chapmanj948@gmail.com?subject=Book%20a%20supervision%20appointment" class="btn btn-primary">Book a supervision appointment</a>
+
 
 ## Mediation
 
@@ -31,8 +33,11 @@ Mediation provides a confidential non judgemental space for those who may be in 
 
 <a href="mailto:chapmanj948@gmail.com?subject=Book%20a%20mediation%20appointment" class="btn btn-primary">Book a mediation appointment</a>
 
+
 ## Reflective practice
 
 Placeholder text
+
+**Fees: Please get in touch**
 
 <a href="mailto:chapmanj948@gmail.com?subject=Book%20a%20reflective%20practice%20appointment" class="btn btn-primary">Book a reflective practice appointment</a>
