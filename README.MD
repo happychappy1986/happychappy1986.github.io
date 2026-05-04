@@ -1,4 +1,4 @@
-[jameschapmancounselling.co.uk]()
+[jameschapmancounselling.co.uk](https://jameschapmancounselling.co.uk)
 
 Built with [Jekyll](https://jekyllrb.com)
 
