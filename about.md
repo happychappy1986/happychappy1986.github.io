@@ -18,7 +18,7 @@ Mediation provides a confidential non judgemental space for those who may be in 
 
 ## Qualifications
 
--Certificate in Supervision 
+- Certificate in Supervision 
 
 - MSc Therapeutic Counselling 
 
